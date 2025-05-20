@@ -1,4 +1,6 @@
-# Usage
+# Semi-Intelligent Google Sheets Agent
+
+## Usage
 ```
 python3 main_agents.py
 ```
