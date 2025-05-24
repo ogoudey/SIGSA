@@ -29,3 +29,9 @@ pip install gspread # This will be used by the agents
 3. **Set Variables:**
    - In `sheets.py`, set the file path of the JSON credentials in `from_json_keyfile_name()`.
    - also in `sheets.py`, set the name of the Google Spreadsheet in `client.open()`.
+   
+### OpenAI API Key (nearly free)
+1. **Set up OpenAI API:**
+    - Go to API Keys on the [OpenAI Platform](https://platform.openai.com/api-keys).
+    - Create new key and set the key as an environment variable `export OPENAI_API_KEY=<key>`.
+    - Fund the key if needed.

@@ -36,7 +36,7 @@ def main():
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 
     # Load credentials from JSON key file
-    credentials = ServiceAccountCredentials.from_json_keyfile_name('recommended-to-do-ae19c75f5fcf.json', scope)
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('recommended-to-do-02a479cff156.json', scope)
 
     # Authorize the client
     client = gspread.authorize(credentials)
